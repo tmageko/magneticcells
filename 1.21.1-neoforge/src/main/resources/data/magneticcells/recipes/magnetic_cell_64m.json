@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "magneticcells:magnetic_cell_housing"
+    },
+    {
+      "item": "megacells:cell_component_64m"
+    },
+    {
+      "item": "ae2:chest"
+    },
+    {
+      "item": "ae2:dense_energy_cell"
+    }
+  ],
+  "result": {
+    "item": "magneticcells:magnetic_cell_64m",
+    "count": 1
+  }
+}

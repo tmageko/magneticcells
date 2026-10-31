@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+**/.gradle/
+build/
+**/build/
+
+# Minecraft development runs
+run/
+runs/
+run-data/
+**/run/
+**/runs/
+**/run-data/
+
+# IDE files
+.idea/
+.eclipse/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# Logs and local files
+*.log
+hs_err_pid*
+replay_pid*
+*.launch

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "magneticcells:item/magnetic_cell_256k"
+  }
+}
