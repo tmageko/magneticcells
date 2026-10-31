@@ -104,6 +104,16 @@ public class MagneticCellMenu extends AbstractContainerMenu {
         CellData.setFilterItems(cell, items);
     }
 
+    // ── Upgrade slot ──
+    private ItemStack upgradeItem = ItemStack.EMPTY;
+
+    public ItemStack getUpgradeItem() { return upgradeItem; }
+
+    public void setUpgradeItem(ItemStack stack) {
+        this.upgradeItem = stack == null ? ItemStack.EMPTY : stack;
+        saveFilterToCell();
+    }
+
     public int getFilterMode() { return CellData.getFilterMode(getCellStack()); }
 
     public void toggleFilterMode() {
