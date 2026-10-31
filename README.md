@@ -1,15 +1,15 @@
 # Magnetic Cells
 
-Magnetic Cells adds portable Applied Energistics 2 storage cells with a built-in item magnet. The magnet collects nearby dropped items into a cell carried in the player's inventory.
+Portable Applied Energistics 2 storage cells with a built-in item magnet. The magnet collects nearby dropped items into a cell carried in the player's inventory.
 
-## Supported versions
+## Version branches
 
-| Directory | Minecraft | Mod loader | Java |
+| Branch | Minecraft | Mod loader | Java |
 | --- | --- | --- | --- |
-| [`1.20.1-forge`](1.20.1-forge) | 1.20.1 | Forge | 17 |
-| [`1.21.1-neoforge`](1.21.1-neoforge) | 1.21.1 | NeoForge | 21 |
+| [`main`](https://github.com/tmageko/magneticcells/tree/main) | 1.21.1 | NeoForge | 21 |
+| [`forge-1.20`](https://github.com/tmageko/magneticcells/tree/forge-1.20) | 1.20.1 | Forge | 17 |
 
-Each directory is a standalone Gradle project with its own wrapper settings and source code.
+Each branch contains a standalone Gradle project at its repository root.
 
 ## Features
 
@@ -22,16 +22,13 @@ Each directory is a standalone Gradle project with its own wrapper settings and 
 
 ## Build
 
-Install the Java version listed for the Minecraft version, then run the Gradle wrapper from that version's directory:
+Install the Java version listed for the selected branch, then run the Gradle wrapper from the repository root:
 
 ```bash
-cd 1.20.1-forge
 ./gradlew build
 ```
 
-On Windows, use `gradlew.bat build`. For Minecraft 1.21.1, run the same commands from `1.21.1-neoforge` with Java 21 installed.
-
-The built mod JAR is written to that project's `build/libs` directory.
+On Windows, run `gradlew.bat build`. The built mod JAR is written to `build/libs`.
 
 ## Dependencies
 
